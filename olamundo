@@ -1,6 +1,9 @@
 #include <stdio.h>
+#include <locale.h>
 
 int main()
 {
-  printf("Olá, Mundo!");
+    setlocale(LC_ALL, "");
+    printf("Olá, Mundo!\n");
+    return 0;
 }
